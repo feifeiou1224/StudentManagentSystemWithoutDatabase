@@ -1,0 +1,6 @@
+body{margin: 0px;padding: 0px;}
+div{border: black 1px solid;}
+#showdiv1{border: black 1px solid;}
+#showdiv1 div{width: 160px;height: 180px;}
+#showdiv2 div{width: 200px;height: 250px;}
+#bigdiv{color: red;font-size: 15px;font-weight: bold;}

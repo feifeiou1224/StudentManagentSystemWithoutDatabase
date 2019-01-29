@@ -1,0 +1,52 @@
+/**
+ * 主页页面样式
+ */
+#aboutus{text-align: center;margin-top: 100px;}
+#bigdiv{border-radius: 8px;border: dotted dodgerblue 3px;width: 1100px;margin: auto;font-size: 17px;}
+#date{text-align: center;margin:auto;margin-top: 00px;}
+#date div{ width: 260px; background-color: #055F80;border-radius: 10px;color: white;text-align: left;font-size: 16px;height: 280px; margin: 5px;margin-top: 50px;}
+#date1{font-size: 55px;}
+
+#charac{background-image: url(../img/re_background.jpg);text-align: center;margin:auto;margin-top: 100px;color: white;background-attachment: fixed;background-size: cover;}
+#charac>div>div{margin: auto;margin-bottom: 200px;}
+
+#teacher{text-align: center;margin:auto;margin-top: 100px;font-size: 17px;}
+#names{margin-top: 10px;font-weight: 500 ;font-size: 20px;}
+
+#employment{text-align: center;margin:auto;margin-top: 100px;font-size: 17px;background-image: url(../img/timg.jpg);background-attachment: fixed;background-size: cover;color: white;}
+
+#envir{text-align: center;margin:auto;margin-top: 100px;font-size: 17px;}
+
+#star{background-image: url(../img/timg1.jpg);background-attachment: fixed;background-size: cover;text-align: center;margin:auto;margin-top: 100px;font-size: 17px;color: white;}
+#star1{margin-top: 50px;}
+#star1 div>div {border-radius: 20px;background-color: #3699E1;height: 170px;}
+#star2{width: 350px;height: 150px;padding-left: 50px;}
+#star2 div{float: left;height: 150px;}
+#star3{margin-bottom: 15px;}
+
+#learn{background-image: url(../img/time2.jpg);background-attachment: fixed;background-size: cover;text-align: center;margin:auto;margin-top: 50px;}
+#sign{border-radius: 10px;border-top: 5px solid #3699E1;background-color: white;margin: auto;margin-top: 30px;}
+
+#foot{background-color: #033244;}
+/**
+ * 固定界面样式
+ */
+/*头部菜单*/
+#floatTop{position: fixed;z-index: 1;width: 100%;height: 80px;top: 0px;background-color: white;box-shadow:8px 8px 20px rgba(0,0,0,.2);}
+#floatTop_1{margin: 12px auto;float: left;}
+#floatTop_2{height: 80px;float: left;margin-left: 0px;vertical-align: middle;font-size: 16px;}
+#floatTop_2>ul{list-style:none;margin:0;height: 80px;float: left;}
+#floatTop_2>ul>li{line-height: 80px;display: block;float: left;width: 100px;text-align: center;}
+#floatTop_2>ul>li:hover{color: white;background-color: #055F80;cursor: pointer;}
+/*左侧菜单*/
+#floatLeft{position: fixed;z-index: 1;width: 85px;height: 390px;border-radius: 10px;left: 20px;top: 150px;text-align: center;font-size: 16px;}
+#floatLeft_top{border-top-right-radius: 10px;border-top-left-radius: 10px;width: 85px;height: 29px;color: white;background-color: #055F80;line-height: 29px;border-bottom: #FFFFFF 1px solid;}
+#floatLeft_middle{width: 85px;height: 60px;color: white;background-color: #055F80;line-height: 60px;}
+#floatLeft_bottom{border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;width: 85px;height: 60px;color: white;background-color: #055F80;line-height: 60px;}
+#floatLeft_top:hover{color:#055F80;background-color: white;cursor: pointer; }
+#floatLeft_middle:hover{color:#055F80;background-color: white;cursor: pointer; }
+#floatLeft_bottom:hover{color:#055F80;background-color: white;cursor: pointer; }
+/*右侧咨询报名*/
+#floatRight{position: fixed;z-index: 1;width: 190px;height: 80px;right: 0px;top: 500px;}
+/*二维码*/
+#floatCode{position: fixed;z-index: 2;right: 350px;top: 30px; padding: 0px;width: 138px;height: 133px;text-align: center;box-shadow:12px 12px 20px rgba(0,0,0,.2);}

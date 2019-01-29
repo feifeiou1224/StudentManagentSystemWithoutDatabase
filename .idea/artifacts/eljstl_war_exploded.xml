@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="eljstl:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/eljstl_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="eljstl" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="JUnit4" module-name="eljstl" />
+          <element id="library" level="project" name="jstl-1.2" />
+          <element id="library" level="project" name="standard-1.1.2" />
+          <element id="library" level="project" name="commons-fileupload-1.2.1" />
+          <element id="library" level="project" name="commons-io-1.4" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="eljstl/web/Web" />
+    </root>
+  </artifact>
+</component>

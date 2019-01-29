@@ -1,0 +1,3 @@
+body{background-image: url(../img/re_background.jpg);background-attachment: fixed;background-size: cover;background-repeat: no-repeat;}
+#showdiv{background-color: white;margin: 150px auto;border-radius: 10px;border: 8px gainsboro solid;}
+#showdiv ul{list-style: none;margin-top: 30px;}
